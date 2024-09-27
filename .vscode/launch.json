@@ -10,7 +10,7 @@
             "name": "Python 调试程序: 当前文件",
             "type": "debugpy",
             "request": "launch",
-            "python": "/home/mars/anaconda3/bin/python", //python3的安装路径！
+            
             "program": "${file}",
             "console": "integratedTerminal"
         }

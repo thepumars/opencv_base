@@ -1,5 +1,5 @@
 import numpy as np
-import qtpy
+
 import cv2 as cv
 
 videopath = 'video/test.mp4'

@@ -1,0 +1,1 @@
+##histogram to analyze the status of the gray picture
