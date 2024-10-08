@@ -33,16 +33,19 @@ from matplotlib import pyplot as plt
 
 #here comes the 2D histogram
 
-# img = cv.imread('pic/home.png')
+img = cv.imread('pic/home.png')
 
-# hsv = cv.cvtColor(img,cv.COLOR_BGR2HSV)
+hsv = cv.cvtColor(img,cv.COLOR_BGR2HSV)
 
-# hist = cv.calcHist([hsv],[0,1],None,[180,256],[0,180,0,256])
+hist = cv.calcHist([hsv],[0,1],None,[180,256],[0,180,0,256])
 
-# #using cv.imshow will express by gray graph
-# plt.figure()
-# plt.imshow(hist,interpolation='nearest')
-# plt.show()
+#using cv.imshow will express by gray graph
+plt.figure()
+plt.imshow(hsv)
+plt.figure()
+plt.imshow(hist,interpolation='nearest')
+plt.colorbar()
+plt.show()
 
 #back projection based on histogram
 
